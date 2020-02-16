@@ -6,7 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Assignment 4</title>
-        <style></style>
+        <style>
+            table,
+            td,
+            th {
+                border: 1px solid black;
+                font-weight: bold;
+                text-align: center;
+            }
+            .red {
+                background-color: red;
+            }
+
+        </style>
     </head>
 
     <body>
@@ -20,9 +32,9 @@
             <input type="submit" name="submit">
         <?php 
             if(isset($_POST['submit'])){ 
-            echo $_POST['limit'];
+                include 'output.php';
             }else{
-            //code to be executed  
+
             }
         ?>
         </form>
