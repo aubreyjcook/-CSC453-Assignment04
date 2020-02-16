@@ -5,42 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Assignment 3</title>
+    <title>Assignment 4</title>
     <style>
-        h1 {
-            color: white;
-            background-color: blue;
-            text-align: center;
-        }
-        
-        form {
-            background-color: bisque;
-            width: 500px;
-            clear: both;
-        }
+
     </style>
 </head>
 
 <body>
-    <h1>Volume Calculator</h1>
+    <h1>Number Chart</h1>
     <form action="form.php" method="post">
-        <p>Calculate Volume of Rectangle</p>
-        <label>Width: </label>
-        <input name="width" type="number" required>
-        <br>
-        <label>Length:</label>
-        <input name="length" type="number" required>
-        <br>
-        <label>Height:</label>
-        <input name="height" type="number" required>
-        <br>
-
-        <p>Calculate Volume of a Cone</p>
-        <label>Radius:</label>
-        <input name="radius" type="number" required>
-        <br>
-        <label>Height:</label>
-        <input name="height2" type="number" required>
+        <label>Enter Limit: </label>
+        <input name="limit" type="number" step="10" min="10" max="500" required>
         <br>
         <br><br>
         <input type="submit">
